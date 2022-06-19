@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-update.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libigl-populate"
+		],
+		"name" : "libigl-populate"
+	}
+}

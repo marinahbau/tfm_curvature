@@ -1,0 +1,11 @@
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/example.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glad/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glad/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glad/CMakeFiles/glad.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glfw/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glfw/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glfw/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glfw/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glfw/src/CMakeFiles/glfw.dir

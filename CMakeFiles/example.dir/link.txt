@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC   CMakeFiles/example.dir/src/main_mean_curvature.cpp.o  -o example  /usr/lib/x86_64-linux-gnu/libGL.so glad/libglad.a glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 

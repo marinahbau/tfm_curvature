@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/main.dir/src/funciones_curvature.o  -o main -l_bin -ligl -l:: -lcore -ligl -l:: -lopengl_glfw -ligl -l:: -lopengl_glfw_imgui -lcore -lopengl_glfw -lopengl_glfw_imgui 

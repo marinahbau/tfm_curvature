@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+1a20e78d5ec90a3e30670fe589853be8 qrc_CGAL.cpp
+42547cf0a23c33d4f0c70a7c8ebb31ed qrc_File.cpp
+82a9d05be355c1601c55c86173c6f369 qrc_Input.cpp
+5eb6cde884c24b8d9d264db1cb83aa0f qrc_Triangulation_2.cpp
+b5e1fadf9615fe4a376ae7ddd167f7f1 ui_ImageInterface.h

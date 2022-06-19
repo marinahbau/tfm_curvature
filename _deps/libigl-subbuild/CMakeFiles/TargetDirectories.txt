@@ -1,0 +1,3 @@
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate.dir

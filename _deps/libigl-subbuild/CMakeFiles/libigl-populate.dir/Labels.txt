@@ -1,0 +1,14 @@
+# Target labels
+ libigl-populate
+# Source files and their labels
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/CMakeFiles/libigl-populate-complete.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-install.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-mkdir.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-download.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-update.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-patch.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-configure.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-build.rule
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/_deps/libigl-subbuild/libigl-populate-prefix/src/libigl-populate-stamp/libigl-populate-test.rule

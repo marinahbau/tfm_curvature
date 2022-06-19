@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -o tfm_curvature  -L/home/marina/libigl /home/marina/libigl/libigl.a -ligl::opengl -ligl::opengl_glfw -ltutorials 
