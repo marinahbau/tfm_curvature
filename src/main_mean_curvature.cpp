@@ -17,15 +17,17 @@ std::string LOCALNAME = "";
 int main(int argc, char *argv[])
 {
   using namespace Eigen;
-  std::string filename = (argc > 1) ? argv[1] : "bunny.off"; //Malla por defecto
+  std::string filename = (argc > 1) ? argv[1] : "../tfm/data/sfcoborjacienmilnormalizado.ply"; //Malla por defecto
   LOCALNAME = filename;
-  LOCALNAME.erase(LOCALNAME.begin(), LOCALNAME.begin() + 5);
+  LOCALNAME.erase(LOCALNAME.begin(), LOCALNAME.begin() + 12);
   LOCALNAME.erase(LOCALNAME.end() - 4, LOCALNAME.end());
 
   if(argc>1)
   {
     filename = argv[1];
   }
+
+  std::cout << "Iniciando TFM curvatura para la malla " << LOCALNAME << std::endl;
   // Load a mesh in OFF format
   igl::read_triangle_mesh(filename, V, F);
 
@@ -52,8 +54,8 @@ int main(int argc, char *argv[])
 
   viewer.data().set_data(H);
 
-    //Crear archivo de valores de curvatura
-  std::ofstream s("mean_curvatura.txt");
+  //Crear archivo de valores de curvatura
+  std::ofstream s("../tfm/curvaturas/" + LOCALNAME + "_mean_curvatura.txt");
 
   // Loop over H
   for(int i = 0;i<(int)H.rows();i++)
@@ -65,8 +67,4 @@ int main(int argc, char *argv[])
   }
   s.close();
 
-  // Hide wireframe
-  //viewer.data().show_lines = false;
-
-  //viewer.launch();
 }
