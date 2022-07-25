@@ -17,9 +17,9 @@ std::string LOCALNAME = "";
 int main(int argc, char *argv[])
 {
   using namespace Eigen;
-  std::string filename = (argc > 1) ? argv[1] : "../tfm/data/sfcoborjacienmilnormalizado.ply"; //Malla por defecto
+  std::string filename = (argc > 1) ? argv[1] : "../tfm/data/SFcoBorja.ply"; //Malla por defecto
   LOCALNAME = filename;
-  LOCALNAME.erase(LOCALNAME.begin(), LOCALNAME.begin() + 12);
+  LOCALNAME.erase(LOCALNAME.begin(), LOCALNAME.begin() + 12); //Para ejecutar solo este archivo hay que poner +12
   LOCALNAME.erase(LOCALNAME.end() - 4, LOCALNAME.end());
 
   if(argc>1)
@@ -56,7 +56,15 @@ int main(int argc, char *argv[])
 
   //Crear archivo de valores de curvatura
   std::ofstream s("../tfm/curvaturas/" + LOCALNAME + "_mean_curvatura.txt");
-
+  std::ofstream v("../tfm/curvaturas/" + LOCALNAME + "_mean_curvatura_vertices.txt");
+  //Crear archivo de posiciones de vertices
+  for(int i = 0;i<(int)H.rows();i++)
+  {
+    for(int j = 0;j<(int)H.cols();++j)
+    {
+      v << V(i,j) << ",";
+    }
+  }
   // Loop over H
   for(int i = 0;i<(int)H.rows();i++)
   {
