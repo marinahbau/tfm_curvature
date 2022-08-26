@@ -49,27 +49,18 @@ int main(int argc, char *argv[])
   // mean curvature
   H = 0.5*(PV1+PV2);
 
-  igl::opengl::glfw::Viewer viewer;
-  viewer.data().set_mesh(V, F);
-
-  viewer.data().set_data(H);
-
   //Crear archivo de valores de curvatura
   std::ofstream s("../tfm/curvaturas/" + LOCALNAME + "_mean_curvatura.txt");
   std::ofstream v("../tfm/curvaturas/" + LOCALNAME + "_mean_curvatura_vertices.txt");
   //Crear archivo de posiciones de vertices
-  for(int i = 0;i<(int)H.rows();i++)
-  {
-    for(int j = 0;j<(int)H.cols();++j)
-    {
+  for(int i = 0;i<(int)H.rows();i++) {
+    for(int j = 0;j<(int)H.cols();++j) {
       v << V(i,j) << ",";
     }
   }
   // Loop over H
-  for(int i = 0;i<(int)H.rows();i++)
-  {
-    for(int j = 0;j<(int)H.cols();++j)
-    {
+  for(int i = 0;i<(int)H.rows();i++) {
+    for(int j = 0;j<(int)H.cols();++j) {
       s << H(i,j) << ",";
     }
   }
