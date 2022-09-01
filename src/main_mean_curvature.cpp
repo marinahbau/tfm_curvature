@@ -18,8 +18,9 @@ int main(int argc, char *argv[])
 {
   using namespace Eigen;
   std::string filename = (argc > 1) ? argv[1] : "../tfm/data/SFcoBorja.ply"; //Malla por defecto
+  int variacion = std::atoi(argv[2]);
   LOCALNAME = filename;
-  LOCALNAME.erase(LOCALNAME.begin(), LOCALNAME.begin() + 12); //Para ejecutar solo este archivo hay que poner +12
+  LOCALNAME.erase(LOCALNAME.begin(), LOCALNAME.begin() + variacion); //Para ejecutar solo este archivo hay que poner +12
   LOCALNAME.erase(LOCALNAME.end() - 4, LOCALNAME.end());
 
   if(argc>1)
