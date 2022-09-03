@@ -1,7 +1,6 @@
 /// \file
 #include <iostream>
 #include <igl/opengl/glfw/Viewer.h>
-
  #include <igl/gaussian_curvature.h>
 #include <igl/massmatrix.h>
 #include <igl/invert_diag.h>

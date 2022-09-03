@@ -48,9 +48,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-3.16/Modules/FetchContent.cmake"
   "/usr/share/cmake-3.16/Modules/FetchContent/CMakeLists.cmake.in"
+  "/usr/share/cmake-3.16/Modules/FindFontconfig.cmake"
+  "/usr/share/cmake-3.16/Modules/FindFreetype.cmake"
   "/usr/share/cmake-3.16/Modules/FindOpenGL.cmake"
   "/usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.16/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.16/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake-3.16/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.16/Modules/FindX11.cmake"
   "/usr/share/cmake-3.16/Modules/GNUInstallDirs.cmake"
@@ -60,6 +63,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.16/Modules/SelectLibraryConfigurations.cmake"
   "/usr/share/cmake-3.16/Modules/WriteBasicConfigVersionFile.cmake"
   )
 
@@ -83,6 +87,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/laplacian.dir/DependInfo.cmake"
   "CMakeFiles/example.dir/DependInfo.cmake"
   "glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"

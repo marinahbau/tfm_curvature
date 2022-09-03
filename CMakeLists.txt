@@ -11,4 +11,6 @@ include(libigl)
 # Add your project files
 file(GLOB SRC_FILES *.cpp)
 add_executable(${PROJECT_NAME} src/main_mean_curvature.cpp)
+add_executable(laplacian src/laplacian.cpp)
 target_link_libraries(${PROJECT_NAME} PUBLIC igl::core igl::opengl_glfw)
+target_link_libraries(laplacian PUBLIC igl::core igl::opengl_glfw)

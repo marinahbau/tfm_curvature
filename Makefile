@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named laplacian
+
+# Build rule for target.
+laplacian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 laplacian
+.PHONY : laplacian
+
+# fast build rule for target.
+laplacian/fast:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
+.PHONY : laplacian/fast
+
+#=============================================================================
 # Target rules for targets named example
 
 # Build rule for target.
@@ -149,6 +162,33 @@ glfw/fast:
 	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
+src/laplacian.o: src/laplacian.cpp.o
+
+.PHONY : src/laplacian.o
+
+# target to build an object file
+src/laplacian.cpp.o:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.o
+.PHONY : src/laplacian.cpp.o
+
+src/laplacian.i: src/laplacian.cpp.i
+
+.PHONY : src/laplacian.i
+
+# target to preprocess a source file
+src/laplacian.cpp.i:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.i
+.PHONY : src/laplacian.cpp.i
+
+src/laplacian.s: src/laplacian.cpp.s
+
+.PHONY : src/laplacian.s
+
+# target to generate assembly for a file
+src/laplacian.cpp.s:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.s
+.PHONY : src/laplacian.cpp.s
+
 src/main_mean_curvature.o: src/main_mean_curvature.cpp.o
 
 .PHONY : src/main_mean_curvature.o
@@ -183,10 +223,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... laplacian"
 	@echo "... example"
 	@echo "... edit_cache"
 	@echo "... glad"
 	@echo "... glfw"
+	@echo "... src/laplacian.o"
+	@echo "... src/laplacian.i"
+	@echo "... src/laplacian.s"
 	@echo "... src/main_mean_curvature.o"
 	@echo "... src/main_mean_curvature.i"
 	@echo "... src/main_mean_curvature.s"

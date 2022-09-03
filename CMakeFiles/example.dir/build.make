@@ -79,7 +79,8 @@ example_EXTERNAL_OBJECTS =
 
 example: CMakeFiles/example.dir/src/main_mean_curvature.cpp.o
 example: CMakeFiles/example.dir/build.make
-example: /usr/lib/x86_64-linux-gnu/libGL.so
+example: /usr/lib/x86_64-linux-gnu/libGLX.so
+example: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 example: glad/libglad.a
 example: glfw/src/libglfw3.a
 example: /usr/lib/x86_64-linux-gnu/librt.so

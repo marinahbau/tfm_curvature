@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/laplacian.dir/all
 all: CMakeFiles/example.dir/all
 all: glad/all
 all: glfw/all
@@ -66,6 +67,7 @@ preinstall: glfw/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/laplacian.dir/clean
 clean: CMakeFiles/example.dir/clean
 clean: glad/clean
 clean: glfw/clean
@@ -125,6 +127,34 @@ glfw/src/preinstall:
 glfw/src/clean: glfw/src/CMakeFiles/glfw.dir/clean
 
 .PHONY : glfw/src/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/laplacian.dir
+
+# All Build rule for target.
+CMakeFiles/laplacian.dir/all: glad/CMakeFiles/glad.dir/all
+CMakeFiles/laplacian.dir/all: glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/depend
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=22,23 "Built target laplacian"
+.PHONY : CMakeFiles/laplacian.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/laplacian.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles 21
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/laplacian.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles 0
+.PHONY : CMakeFiles/laplacian.dir/rule
+
+# Convenience name for target.
+laplacian: CMakeFiles/laplacian.dir/rule
+
+.PHONY : laplacian
+
+# clean rule for target.
+CMakeFiles/laplacian.dir/clean:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/clean
+.PHONY : CMakeFiles/laplacian.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/example.dir

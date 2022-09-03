@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC   CMakeFiles/laplacian.dir/src/laplacian.cpp.o  -o laplacian  /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so glad/libglad.a glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 
