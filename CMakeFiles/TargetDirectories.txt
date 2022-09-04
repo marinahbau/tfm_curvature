@@ -1,7 +1,7 @@
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/laplacian.dir
-/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/example.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/laplacian_smooth.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/mean_curvature.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glad/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glad/CMakeFiles/edit_cache.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/glad/CMakeFiles/glad.dir

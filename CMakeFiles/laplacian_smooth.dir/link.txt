@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC   CMakeFiles/laplacian_smooth.dir/src/laplacian.cpp.o  -o laplacian_smooth  /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so glad/libglad.a glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 

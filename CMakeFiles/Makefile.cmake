@@ -87,8 +87,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/laplacian.dir/DependInfo.cmake"
-  "CMakeFiles/example.dir/DependInfo.cmake"
+  "CMakeFiles/laplacian_smooth.dir/DependInfo.cmake"
+  "CMakeFiles/mean_curvature.dir/DependInfo.cmake"
   "glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )

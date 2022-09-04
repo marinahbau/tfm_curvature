@@ -111,30 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named laplacian
+# Target rules for targets named laplacian_smooth
 
 # Build rule for target.
-laplacian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 laplacian
-.PHONY : laplacian
+laplacian_smooth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 laplacian_smooth
+.PHONY : laplacian_smooth
 
 # fast build rule for target.
-laplacian/fast:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
-.PHONY : laplacian/fast
+laplacian_smooth/fast:
+	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/build
+.PHONY : laplacian_smooth/fast
 
 #=============================================================================
-# Target rules for targets named example
+# Target rules for targets named mean_curvature
 
 # Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example
-.PHONY : example
+mean_curvature: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mean_curvature
+.PHONY : mean_curvature
 
 # fast build rule for target.
-example/fast:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
+mean_curvature/fast:
+	$(MAKE) -f CMakeFiles/mean_curvature.dir/build.make CMakeFiles/mean_curvature.dir/build
+.PHONY : mean_curvature/fast
 
 #=============================================================================
 # Target rules for targets named glad
@@ -168,7 +168,7 @@ src/laplacian.o: src/laplacian.cpp.o
 
 # target to build an object file
 src/laplacian.cpp.o:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.o
+	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/src/laplacian.cpp.o
 .PHONY : src/laplacian.cpp.o
 
 src/laplacian.i: src/laplacian.cpp.i
@@ -177,7 +177,7 @@ src/laplacian.i: src/laplacian.cpp.i
 
 # target to preprocess a source file
 src/laplacian.cpp.i:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.i
+	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/src/laplacian.cpp.i
 .PHONY : src/laplacian.cpp.i
 
 src/laplacian.s: src/laplacian.cpp.s
@@ -186,7 +186,7 @@ src/laplacian.s: src/laplacian.cpp.s
 
 # target to generate assembly for a file
 src/laplacian.cpp.s:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.s
+	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/src/laplacian.cpp.s
 .PHONY : src/laplacian.cpp.s
 
 src/main_mean_curvature.o: src/main_mean_curvature.cpp.o
@@ -195,7 +195,7 @@ src/main_mean_curvature.o: src/main_mean_curvature.cpp.o
 
 # target to build an object file
 src/main_mean_curvature.cpp.o:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/main_mean_curvature.cpp.o
+	$(MAKE) -f CMakeFiles/mean_curvature.dir/build.make CMakeFiles/mean_curvature.dir/src/main_mean_curvature.cpp.o
 .PHONY : src/main_mean_curvature.cpp.o
 
 src/main_mean_curvature.i: src/main_mean_curvature.cpp.i
@@ -204,7 +204,7 @@ src/main_mean_curvature.i: src/main_mean_curvature.cpp.i
 
 # target to preprocess a source file
 src/main_mean_curvature.cpp.i:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/main_mean_curvature.cpp.i
+	$(MAKE) -f CMakeFiles/mean_curvature.dir/build.make CMakeFiles/mean_curvature.dir/src/main_mean_curvature.cpp.i
 .PHONY : src/main_mean_curvature.cpp.i
 
 src/main_mean_curvature.s: src/main_mean_curvature.cpp.s
@@ -213,7 +213,7 @@ src/main_mean_curvature.s: src/main_mean_curvature.cpp.s
 
 # target to generate assembly for a file
 src/main_mean_curvature.cpp.s:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/main_mean_curvature.cpp.s
+	$(MAKE) -f CMakeFiles/mean_curvature.dir/build.make CMakeFiles/mean_curvature.dir/src/main_mean_curvature.cpp.s
 .PHONY : src/main_mean_curvature.cpp.s
 
 # Help Target
@@ -223,9 +223,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... laplacian"
-	@echo "... example"
 	@echo "... edit_cache"
+	@echo "... laplacian_smooth"
+	@echo "... mean_curvature"
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... src/laplacian.o"
