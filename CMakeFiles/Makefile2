@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/gaussian.dir/all
 all: CMakeFiles/laplacian_smooth.dir/all
 all: CMakeFiles/mean_curvature.dir/all
 all: glad/all
@@ -67,6 +68,7 @@ preinstall: glfw/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/gaussian.dir/clean
 clean: CMakeFiles/laplacian_smooth.dir/clean
 clean: CMakeFiles/mean_curvature.dir/clean
 clean: glad/clean
@@ -129,6 +131,34 @@ glfw/src/clean: glfw/src/CMakeFiles/glfw.dir/clean
 .PHONY : glfw/src/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/gaussian.dir
+
+# All Build rule for target.
+CMakeFiles/gaussian.dir/all: glad/CMakeFiles/glad.dir/all
+CMakeFiles/gaussian.dir/all: glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/depend
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=1,2 "Built target gaussian"
+.PHONY : CMakeFiles/gaussian.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gaussian.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles 21
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gaussian.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles 0
+.PHONY : CMakeFiles/gaussian.dir/rule
+
+# Convenience name for target.
+gaussian: CMakeFiles/gaussian.dir/rule
+
+.PHONY : gaussian
+
+# clean rule for target.
+CMakeFiles/gaussian.dir/clean:
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/clean
+.PHONY : CMakeFiles/gaussian.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/laplacian_smooth.dir
 
 # All Build rule for target.
@@ -136,7 +166,7 @@ CMakeFiles/laplacian_smooth.dir/all: glad/CMakeFiles/glad.dir/all
 CMakeFiles/laplacian_smooth.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/depend
 	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=20,21 "Built target laplacian_smooth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=22,23 "Built target laplacian_smooth"
 .PHONY : CMakeFiles/laplacian_smooth.dir/all
 
 # Build rule for subdir invocation for target.
@@ -164,7 +194,7 @@ CMakeFiles/mean_curvature.dir/all: glad/CMakeFiles/glad.dir/all
 CMakeFiles/mean_curvature.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/mean_curvature.dir/build.make CMakeFiles/mean_curvature.dir/depend
 	$(MAKE) -f CMakeFiles/mean_curvature.dir/build.make CMakeFiles/mean_curvature.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=22,23 "Built target mean_curvature"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=24,25 "Built target mean_curvature"
 .PHONY : CMakeFiles/mean_curvature.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +221,7 @@ CMakeFiles/mean_curvature.dir/clean:
 glad/CMakeFiles/glad.dir/all:
 	$(MAKE) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/depend
 	$(MAKE) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=3,4 "Built target glad"
 .PHONY : glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +248,7 @@ glad/CMakeFiles/glad.dir/clean:
 glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.

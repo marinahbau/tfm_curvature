@@ -14,3 +14,6 @@ add_executable(${PROJECT_NAME} src/main_mean_curvature.cpp)
 add_executable(laplacian_smooth src/laplacian.cpp)
 target_link_libraries(${PROJECT_NAME} PUBLIC igl::core igl::opengl_glfw)
 target_link_libraries(laplacian_smooth PUBLIC igl::core igl::opengl_glfw)
+
+add_executable(gaussian src/main_gaussian_curvature.cpp)
+target_link_libraries(gaussian PUBLIC igl::core igl::opengl_glfw)

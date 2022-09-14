@@ -1,4 +1,5 @@
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/gaussian.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/edit_cache.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/laplacian_smooth.dir
 /mnt/c/Users/marina/Documents/TFM_desarrollo/tfm_curvature/CMakeFiles/mean_curvature.dir

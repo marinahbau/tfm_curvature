@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named gaussian
+
+# Build rule for target.
+gaussian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gaussian
+.PHONY : gaussian
+
+# fast build rule for target.
+gaussian/fast:
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/build
+.PHONY : gaussian/fast
+
+#=============================================================================
 # Target rules for targets named laplacian_smooth
 
 # Build rule for target.
@@ -189,6 +202,33 @@ src/laplacian.cpp.s:
 	$(MAKE) -f CMakeFiles/laplacian_smooth.dir/build.make CMakeFiles/laplacian_smooth.dir/src/laplacian.cpp.s
 .PHONY : src/laplacian.cpp.s
 
+src/main_curvature.o: src/main_curvature.cpp.o
+
+.PHONY : src/main_curvature.o
+
+# target to build an object file
+src/main_curvature.cpp.o:
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/src/main_curvature.cpp.o
+.PHONY : src/main_curvature.cpp.o
+
+src/main_curvature.i: src/main_curvature.cpp.i
+
+.PHONY : src/main_curvature.i
+
+# target to preprocess a source file
+src/main_curvature.cpp.i:
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/src/main_curvature.cpp.i
+.PHONY : src/main_curvature.cpp.i
+
+src/main_curvature.s: src/main_curvature.cpp.s
+
+.PHONY : src/main_curvature.s
+
+# target to generate assembly for a file
+src/main_curvature.cpp.s:
+	$(MAKE) -f CMakeFiles/gaussian.dir/build.make CMakeFiles/gaussian.dir/src/main_curvature.cpp.s
+.PHONY : src/main_curvature.cpp.s
+
 src/main_mean_curvature.o: src/main_mean_curvature.cpp.o
 
 .PHONY : src/main_mean_curvature.o
@@ -223,6 +263,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... gaussian"
 	@echo "... edit_cache"
 	@echo "... laplacian_smooth"
 	@echo "... mean_curvature"
@@ -231,6 +272,9 @@ help:
 	@echo "... src/laplacian.o"
 	@echo "... src/laplacian.i"
 	@echo "... src/laplacian.s"
+	@echo "... src/main_curvature.o"
+	@echo "... src/main_curvature.i"
+	@echo "... src/main_curvature.s"
 	@echo "... src/main_mean_curvature.o"
 	@echo "... src/main_mean_curvature.i"
 	@echo "... src/main_mean_curvature.s"
